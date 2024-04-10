@@ -1,0 +1,10 @@
+name: CESS
+main: me.aquabtw.cess.CESS
+version: 1
+api-version: 1.20
+author: aquabtw
+description: Custom Essentials plugin.
+commands:
+  gmc:
+    aliases: [gms, gmsp, gma]
+    permission: cess.gamemode
