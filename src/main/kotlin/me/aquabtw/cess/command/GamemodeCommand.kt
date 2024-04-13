@@ -26,9 +26,6 @@ class GamemodeCommand(
     }
 
     override fun onTabComplete(sender: CommandSender, alias: String, args: Array<out String>): List<String> {
-        if (alias.equals("gm", true)) {
-            return listOf("c", "s", "sp", "a")
-        }
         return emptyList()
     }
 }
