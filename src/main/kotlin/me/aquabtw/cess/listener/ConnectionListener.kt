@@ -26,7 +26,7 @@ class ConnectionListener(
         val player = event.player
         if (!player.hasPlayedBefore()) {
             val uniqueJoins = Bukkit.getOfflinePlayers().size
-            event.joinMessage(mini("<green>+ <gray>${player.name} <dark_gray>(${uniqueJoins})"))
+            event.joinMessage(mini("<light_purple>+ <gray>${player.name} <dark_gray>(${uniqueJoins})"))
         } else {
             event.joinMessage(mini("<green>+ <gray>${player.name}"))
         }
